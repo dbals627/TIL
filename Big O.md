@@ -104,6 +104,8 @@ O(n^2 + 5n + 8) => O(n^2)
 
 ## 로가리즘
 
+<img src="https://www.shutterstock.com/image-vector/exponential-equation-logarithmic-formula-mathematics-260nw-2378458817.jpg">
+
 O(lonN)을 이해하려면 먼저 로가리즘을 이해해야 한다. 로가리즘은 지수와 역의 관계이다.
 
 ## 객체의 빅오
