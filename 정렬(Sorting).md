@@ -200,7 +200,7 @@ mergeSort([10, 24, 76, 73]);
 
 ## 📚 퀵 정렬(Quick Sort) (너무 어렵😭)
 
-<img src="">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PeOI7-AV4_D_Z6UrOTgFJw.png">
 
 - 합병 정렬과 같은 가정으로 작동
 - 분할 정복 알고리즘
