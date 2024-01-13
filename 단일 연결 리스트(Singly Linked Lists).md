@@ -1,9 +1,3 @@
-목표
-
-- 단일 연결 리스트 정의
-- 배열과 연결 리스트와 비교
-- 삽입, 제거, 횡단 메소드
-
 # 연결 리스트란?
 
 <img src="images/연결 리스트.jpg">
@@ -21,7 +15,7 @@
 > - Tail : 마지막 노드
 > - Length : 리스트의 길이
 
-# 단일 연결 리스트(Singly Linked Lists)
+# 단순 연결 리스트(Singly Linked Lists)
 
 <img src="https://velog.velcdn.com/images/sangbin2/post/8e39992e-9898-46ee-bc17-732363404983/image.png">
 - 각 노드가 다음 노드로 오직 단방향으로만 연결
@@ -211,3 +205,14 @@ var list = new SinglyLinkedList();
 ```
 
 ## 단일 연결리스트의 Big O
+
+- 삽입 : O(1)
+  - 제일 앞이나 뒤에 노드를 추가 할 때
+  - 배열은 O(n)이기 때문에 삽입을 할 경우 단일 연결리스트가 유리
+- 제거 : O(1) or O(n)
+  - 첫번째 노드 제거 0(1), 마지막 노드 제거 O(n)
+- 검색 : O(n)
+- 접근 : O(n)
+  - 배열은 인덱스로 접근을 하기 때문에 O(1) 소요
+
+=> 삽입, 제거에서는 배열보다 효율적
