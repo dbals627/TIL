@@ -25,7 +25,7 @@ class DoublyLinkedList {
 
 ## 📌 Push
 
-<img src="images/이중 연결 리스트-Push.jpg">
+<img src="../images/이중 연결 리스트-Push.jpg">
 
 ```javascript
 // 1. Push 메소드
@@ -50,7 +50,7 @@ push(val) {
 
 ## 📌 Pop
 
-<img src="images/이중 연결 리스트-Pop.jpg">
+<img src="../images/이중 연결 리스트-Pop.jpg">
 
 ```javascript
 // 2. Pop 매소드
@@ -75,7 +75,7 @@ push(val) {
 
 ## 📌 Shift
 
-<img src="images/이중 연결 리스트-Shift.jpg">
+<img src="../images/이중 연결 리스트-Shift.jpg">
 
 ```javascript
 if (this.length === 0) return undefined;
@@ -118,7 +118,7 @@ return oldHead;
     }
 ```
 
-<img src="images/이중 연결 리스트-unshift.jpg">
+<img src="../images/이중 연결 리스트-unshift.jpg">
 
 ## 📌 get
 
@@ -197,7 +197,7 @@ set(index, val){
     }
 ```
 
-<img src="images/이중 연결 리스트-insert.jpg">
+<img src="../images/이중 연결 리스트-insert.jpg">
 
 ## 📌 remove
 
@@ -227,7 +227,7 @@ remove(index) {
 
 ```
 
-<img src="images/이중 연결 리스트-remove.png">
+<img src="../images/이중 연결 리스트-remove.png">
 
 ## 📌 이중 연결 리스트의 Big O
 

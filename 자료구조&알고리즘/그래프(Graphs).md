@@ -20,23 +20,23 @@
 - **Edge(간선)** : 노드와 노드사이를 연결하는 선
 - **Weighted/Unweighted(가중/비가중)** : 노드 사이의 거리
 
-  <img src="images/가중 그래프.png">
+  <img src="../images/가중 그래프.png">
 
   - **Weighted Graph** : 간선에 값을 부여하면 가중 그래프가 된다(ex. 최단경로 계산)
 
 - **Directed/Undirected(방향/무방향)**
 
-  <img src="images/단방향 그래프.png">
+  <img src="../images/단방향 그래프.png">
 
   - **Directed Graph** : 단방향 연결, 보통 방향을 의미하는 화살표로 표현(sns 팔로잉)
 
-  <img src="images/무방향 그래프.png">
+  <img src="../images/무방향 그래프.png">
 
   - **Undirected Graph** : 양방향 연결(sns 맞팔)
 
 ## 📌 그래프 정렬 : 인접 행렬(Adjanceny Matrix)
 
-<img src="images/인접 행렬.png">
+<img src="../images/인접 행렬.png">
 
 - 행렬은 이차원 구조로 보통 중첩 행렬로 표현한다. 기본적으로 행과 열에 맞춰서 정보를 저장한다.
 - 남는 공간이 많기 때문에 더 많은 공간을 차지한다. 퍼져있는 데이터를 다룰 때는 별로 좋지 않다. 하지만 데이터가 거의 차 있는 경우에는 효율적이다.
@@ -44,7 +44,7 @@
 
 ## 📌 그래프 정렬 : 인접 리스트(Adjanceny List)
 
-<img src="images/인접 리스트.png">
+<img src="../images/인접 리스트.png">
 
 - 노드와 선 관계를 해시 테이블을 이용하여 저장할 수 있다.
 - 간선이 많지 않고 퍼져있는 그래프에 대해서는 실제로 있는 연결만 저장하기 때문에 인접 행렬보다 더 적은 공간을 차지한다.

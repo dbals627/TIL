@@ -182,7 +182,7 @@ function mergeSort(arr) {
 mergeSort([10, 24, 76, 73]);
 ```
 
-   <img src="images/합병정렬.png">
+   <img src="../images/합병정렬.png">
 
 ### 📌 합병 정렬의 Big O
 

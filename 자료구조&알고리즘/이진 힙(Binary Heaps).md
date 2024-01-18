@@ -25,20 +25,20 @@
 
 ### 최대 이진 힙
 
-<img src="images/이진 힙 규칙.png">
+<img src="../images/이진 힙 규칙.png">
 
 - 자식의 위치를 찾고 싶을 때: 왼쪽 자식은 부모의 인덱스(n)에 2n+1, 오른쪽 자식은 2n+2
 
-<img src="images/이진 힙 규칙2.png">
+<img src="../images/이진 힙 규칙2.png">
 - 부모의 위치를 찾고 싶을 때: 자식의 인덱스(n)에 (n-1)/2
 
 ## 📌 최대 이진 힙 - Insert 메서드
 
 - 삽입할 노드를 인덱스 맨 마지막에 추가한다.
 - 부모 노드와 비교하여 올바른 위치에 도달할 때까지 노드를 교환한다.
-  <img src="images/최대이진힙1.png">
-  <img src="images/최대이진힙2.png">
-  <img src="images/최대이진힙3.png">
+  <img src="../images/최대이진힙1.png">
+  <img src="../images/최대이진힙2.png">
+  <img src="../images/최대이진힙3.png">
 
 ```javascript
 class MaxBinaryHeap {
